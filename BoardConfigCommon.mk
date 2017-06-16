@@ -57,5 +57,6 @@ BOARD_SEPOLICY_DIRS += device/samsung/n80xx-common/selinux
 # PowerHAL
 TARGET_POWERHAL_VARIANT := pegasusq
 
-
+# Bootanimation
+TARGET_BOOTANIMATION_PRELOAD := false
 
